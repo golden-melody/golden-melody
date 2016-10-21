@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+* {
+    font-size: 21px;
+    color: #fff;
+    font-family: 'cwTeXYen', 'Open Sans', sans-serif;
+    font-weight: 100;
+    /*line-height: 1.5 !important;*/
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    height: 100%;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.push {
+    height: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-size: 1.1 !important;
+}
+
+a {
+    color: #5fbeaa;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #499484;
+}
+
+section {
+  /*  overflow: hidden;*/
+  /*  background-color: #B3D9EB;*/
+}
+
+/* --- anchor radius --- */
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+
+background-color: #fff;
+
+}
+
+/* --- section1 img --- */
+
+.title-text {
+    max-height: 80px;
+}
+/*
+.box {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}*/
+
+.box-head {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    max-height: 600px;
+    transition: all 1.5s ease-in;
+}
+
+.box-body {
+    position: absolute;
+    right: 170px;
+    top: 15px;
+    max-height: 592px;
+    z-index: 1;
+}
+
+.seperate {
+    transform: translate3d(-300px, -100px, 0);
+}
+
+/*.gif-z-index {
+    z-index: 3;
+    position: absolute;
+}*/
+
+.text {
+    z-index: 2;
+}
+
+.same-setting {
+    display: none;
+    width: 380px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+.land {
+    top: 220px;
+    right: 150px;
+    width: 380px;
+}
+
+
+.gif1 {
+    top: 68px;
+    right: 150px;    
+}
+
+.gif2 {
+    top: 166px;
+    right: 150px;
+}
+
+.gif3 {
+    top: 18px;
+    right: 153px;
+}
+
+.gif4 {
+    top: 55px;
+    right: 191px;
+    width: 300px;
+}
+
+.gif5 {
+    top: 30px;
+    right: 237px;
+    width: 241px;
+}
+
+.gif6 {
+    right: 150px;
+    top: 102px;
+}
+
+.opacity {
+   /* opacity: 1;
+    transition: all 1.5s ease-in;*/
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    position: fixed;
+    display: block;
+}
+
+#firstSection {
+    z-index: 3;
+}
+
+.desc {
+    float: right;
+}
