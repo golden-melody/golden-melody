@@ -218,6 +218,10 @@ background-color: #fff;
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .text h1 {
+        font-size: 40px;
+    }
     
     .text p {
         font-size: 18px;
