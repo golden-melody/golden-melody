@@ -214,9 +214,9 @@ background-color: #fff;
 
     .text {
         position: absolute;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .text h1 {
