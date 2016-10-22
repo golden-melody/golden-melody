@@ -95,7 +95,7 @@ background-color: #fff;
 
 .same-setting {
     display: none;
-    width: 380px;
+    max-width: 380px;
     z-index: 1;
     position: absolute;
 }
@@ -140,24 +140,88 @@ background-color: #fff;
     top: 102px;
 }
 
-.opacity {
-   /* opacity: 1;
-    transition: all 1.5s ease-in;*/
+.col-md-6 {
+    margin-top: -50px;
 }
 
-.hide {
-    display: none;
-}
+@media (max-width: 425px) {
 
-.show {
-    position: fixed;
-    display: block;
-}
+    .title-text {
+        position: absolute;
+        top: 10%;
+        height: 50px;
+    }
+    
+    .section1-img {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 240px;
+    }
 
-#firstSection {
-    z-index: 3;
-}
+    .box-head {
+        top: 183px;
+        right: 108px;
+        width: 232px;
+    }
 
-.desc {
-    float: right;
+    .box-body {
+        top: 149px;
+        right: -41px;  
+    }
+
+    .seperate {
+        transform: translate3d(-150px, -100px, 0);
+    }
+
+    .same-setting {
+        /*display: block;*/
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 240px;
+    }
+
+    .land {
+        top: 136px;
+    }
+
+    .gif1 {
+        top: 40px;
+    }
+
+    .gif2 {
+        top: 102px;
+    }
+
+    .gif3 {
+        top: 10px;
+    }
+
+    .gif4 {
+        top: -14px;
+    }
+
+    .gif5 {
+        width: 140px;
+        top: 31px;
+        left: -18px;
+    }
+
+    .gif6 {
+        top: 62px;
+    }
+
+    .text {
+        position: absolute;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .text p {
+        font-size: 18px;
+    }
+
+
 }
