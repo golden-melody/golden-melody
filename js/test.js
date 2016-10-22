@@ -8,7 +8,7 @@ $(document).ready(function() {
         bigSectionsDestination: null,
         menu: '#menu',
         lockAnchors: false,
-        anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixSection', 'seventhSection'],
+        anchors: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth'],
         navigation: true,
         navigationPosition: 'right',
         navigationTooltips: [' ', '公關', '視設', '行銷', '工程', '策劃', '評審'],
@@ -46,7 +46,7 @@ $(document).ready(function() {
         //Design
         controlArrows: true,
         verticalCentered: true,
-        sectionsColor : ['#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB'],
+        sectionsColor : ['#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB',  '#B3D9EB'],
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
@@ -124,13 +124,29 @@ $(document).ready(function() {
             // page 7
             if(nextIndex == 7) {
                 $('.gif6').fadeIn();
+                // $('#link-btn').fadeIn();
             }
             else if(nextIndex == 6 && direction =='up') {
                 $('.gif6').fadeOut();
+                // $('#link-btn').fadeOut();
             }
 
             else {
                 $('.gif6').fadeOut();
+                // $('#link-btn').fadeOut();
+            }
+
+            // page 8
+            if(nextIndex == 8) {
+                $('#link-btn').fadeIn();
+                $('#link-btn').addClass('animated tada');
+            }
+            else if(nextIndex == 7 && direction =='up') {
+                $('#link-btn').fadeOut();
+            }
+
+            else {
+                $('#link-btn').fadeOut();
             }
 
             if(index == 1 && nextIndex == 3) {
@@ -152,6 +168,11 @@ $(document).ready(function() {
             if(index == 1 && nextIndex == 7) {
                  $('.gif6, .land').fadeIn(200);
             }
+
+            if(index == 1 && nextIndex == 8) {
+                 $('#link-btn, .land').fadeIn(200);
+            }
+
         },
 
         afterLoad: function(anchorLink, index){
