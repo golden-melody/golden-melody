@@ -149,10 +149,11 @@ background-color: #fff;
     /*display: inline;*/
     background-color: #eee;
     border-radius: 6px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #9a9a9a;
+    border-right: 3px solid #9a9a9a; 
     z-index: 2;
     position: absolute;
-    color: #666;
+    color: #777;
     font-size: 36px;
     top: 250px;
     right: 266px;
