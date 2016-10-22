@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 
 * {
     font-size: 21px;
@@ -220,7 +221,7 @@ background-color: #fff;
     }
 
     .text h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
     
     .text p {
