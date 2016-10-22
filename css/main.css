@@ -231,8 +231,8 @@ background-color: #fff;
     .text {
         position: absolute;
         padding-top: 60px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .text h1 {
